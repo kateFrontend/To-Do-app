@@ -1,0 +1,220 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        115deg,
+        #d161ff,
+        #311c61
+    );
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.newTask{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+
+.inputField {
+    width: 75%;
+    height: 25px;
+    font-size: 18px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    border-radius: 10px;
+ } 
+
+.btn {
+    width: 18%;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #8052ec
+    ;
+    border: none;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.toDoAdded{
+    display: flex;
+    justify-content: space-between;
+    width: 39%;
+    font-size: 18px;
+    padding: 12px 30px;
+    color: #454545;
+    background: #fff;
+    list-style-type: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    width: 13%; 
+    cursor: pointer;
+}
+
+.remove{
+    color: #8052ec;
+    font-size: 24px;
+}
+
+.checkbox{
+    color: #8052ec;
+    font-size: 24px;
+}
+
+.toDoCompleted{
+    color: #454545;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 1s ease;
+    color:#8052ec;
+}
+
+@media all and (max-width: 1030px) {
+    h1 {
+        font-size: 55px;
+    }
+
+.newTask{
+    width: 70%;
+}
+
+.inputField {
+    width: 72%;
+    height: 25px;
+} 
+
+.btn {
+    width: 20%;
+}
+
+.toDoAdded{
+    width: 67%;
+}
+
+.div{
+    width: 15%; 
+}
+
+}
+
+@media all and (max-width: 830px) {
+    h1 {
+        font-size: 45px;
+    }
+
+.newTask{
+    width: 60%;
+}
+
+.inputField {
+    width: 72%;
+    height: 25px;
+} 
+
+.btn {
+    width: 20%;
+}
+
+.toDoAdded{
+    width: 57%;
+}
+
+.div{
+    width: 15%; 
+}
+
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+.newTask{
+    width: 80%;
+}
+
+.inputField {
+    width: 65%;
+    height: 25px;
+} 
+
+.btn {
+    width: 23%;
+}
+
+.toDoAdded{
+    width: 75%;
+}
+
+.div{
+    width: 20%; 
+}
+}
+
+
+@media all and (max-width: 280px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+.newTask{
+    width: 90%;
+}
+
+.inputField {
+    width: 60%;
+    height: 25px;
+    font-size: 14px;
+} 
+
+.btn {
+    width: 25%;
+    font-size: 14px;
+}
+
+.toDoAdded{
+    width: 75%;
+}
+
+.div{
+    width: 30%; 
+}
+}
