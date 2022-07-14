@@ -18,7 +18,7 @@ Simple "To Do" application to organize and prioritize your tasks
 
 
 
-## Built With
+## Built with 
 
 [HTML5](https://www.w3schools.com/html/) / [CSS3](https://www.w3schools.com/css/) / [JavaScript](https://www.w3schools.com/js/)
  
